@@ -52,6 +52,24 @@ img {
     left: 0;
     z-index: 1;
 }
+.footer-bg {
+    background-color: #1A1A1A;
+}
+.footer-container {
+    padding: 20px;
+    justify-content: space-between;
+}
+.info, .follow-us {
+    color: white;
+}
+.info > span {
+    font-size: 0.8rem;
+}
+h6 {
+    padding-bottom: 5px;
+}
+
+
 
 /* Utils */
 
