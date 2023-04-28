@@ -8,7 +8,37 @@
 
 /* Generics */
 body {
+    padding-top: 150px;
     font-family: sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+.header-bg {
+    background-color: #F56901;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.header-cont {
+    justify-content: space-between;
+    align-items: center;
+}
+.categories > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+.boolean-logo {
+    height: 40px;
+}
+.logos > i {
+    color: white;
+    padding: 5px;
 }
 img {
     display: block;
@@ -34,11 +64,12 @@ img {
 }
 .row {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     flex-wrap: wrap;
 }
 .col {
     flex-basis: calc(100% / 3 -20px);
+    padding-left: 20px;
 }
 .card{
     position: relative;
